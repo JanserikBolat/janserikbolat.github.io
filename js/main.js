@@ -1,5 +1,5 @@
 
-const texts = ["Bolat Zhanserik", "learning design", " yummy yuppie"]
+const texts = ["Bolat Zhanserik", "learning design", "20 years old", "glad to see you here"]
 let count = 0;
 let index = 0;
 let currentText = "";
