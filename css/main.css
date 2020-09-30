@@ -23,7 +23,187 @@
     <div class="icons">
         <a href="https://www.instagram.com/_iamk1ra/"><i class="fab fa-instagram"></i></a>
         <a href="https://github.com/JanserikBolat"><i class="fab fa-github"></i></a>
-        <a href = "#">8-708-739-57-50</a>
+        <a href = "#">8-708-739-57-50</a>* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000;
+}
+header{
+    width: 100%;
+    height: 100px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+.fab{
+    margin: 30px;
+}
+.greeting{
+    font-family: 'Dosis', sans-serif;
+    font-size: 56px;
+}
+.greeting, .typing{
+    color: white;
+    
+}
+.typing{
+    margin-left: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 62px;
+}
+.intro{
+    width: 100%;
+    padding: 100px;
+    display: flex;
+}
+.design{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.design img{
+    width: 300px;
+    height: 300px;
+}
+section {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+h2 {
+    font-size: 100px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 500;
+    color: #ffe5db;
+}
+
+.grid-12 {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+.position-h2 {
+    grid-row: 7;
+    grid-column: 4 / span 7;
+    align-self: center;
+}
+p.position-h2{
+    grid-row: 12;
+    font-size: 30px;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.section-collage{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.collage{
+    width: 50%;
+    height: 70%;
+}
+.iphone-image-wrapper {
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    display: grid;
+    grid-auto-columns: 2fr 1fr 2fr;
+    grid-template-rows: repeat(1, 1fr);
+    align-items: center;
+}
+
+.iphone-image {
+    grid-row: 1;
+    grid-column: 2 / span 1;
+    align-self: center;
+    justify-self:center;
+    text-align: center;
+    max-width: 100%;
+}
+
+.inner-phone {
+    position: relative;
+}
+
+
+p {
+    color: #FFF;
+    font-weight: 600;
+    font-size: 20px;
+    margin:0 0 8px 0;
+}
+
+.iphone1-text {
+    grid-column: 1;
+    text-align: right;
+}
+
+.iphone2-text {
+    grid-column: 3;
+}
+
+.iphone1-img {
+ position: absolute;
+ z-index: 2;
+ border: 1px solid white;
+}
+
+.iphone-stick {
+    display: none;
+    position: absolute;
+    left: 54.5%;
+    border: 1px solid white;
+}
+
+.iphone2-img {
+ position: absolute;
+    z-index: 2;
+    border: 1px solid white;
+}
+
+.iphone1 img {
+    width: 100%;
+    border: 1px solid white;
+}
+
+.iphone2 img {
+    width: 88%;
+    border: 1px solid white;
+}
+
+.iphone1-img-behind {
+    z-index: 1;
+    position: relative;
+    border: 1px solid white;
+}
+
+.iphone2-img-behind {
+    z-index: 1;
+    position: relative;
+    border: 1px solid white;
+}
+
+/* Here we go to next phase
+
+
+        
         <a href="https://web.telegram.org/@yummyyuppie"><i class="fab fa-telegram-plane"></i></a>
     </div>
 </header>
