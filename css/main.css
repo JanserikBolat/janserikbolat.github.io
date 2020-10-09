@@ -180,6 +180,16 @@ p {
     justify-content: center;
     align-items: center;
 }
+.poster{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.poster img{
+    width: 30%;
+    height: 30%;
+}
 /* Here we go to next phase
 
 
